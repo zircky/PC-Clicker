@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@pc-clicer/my-prisma-schema": ["libs/my-prisma-schema/src/index.ts"],
+      "@pc-clicer/prisma-client": ["libs/prisma-client/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
