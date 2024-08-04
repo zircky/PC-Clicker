@@ -8,6 +8,8 @@
   },
   "private": true,
   "dependencies": {
+    "@eslint/config-array": "^0.17.1",
+    "@eslint/object-schema": "^2.1.4",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
     "@nestjs/passport": "^10.0.3",
@@ -22,6 +24,7 @@
     "@twa-dev/types": "^7.0.0",
     "axios": "^1.6.0",
     "fastify": "^4.28.1",
+    "glob": "^11.0.0",
     "next": "14.2.3",
     "openssl-nodejs": "^1.0.5",
     "passport": "^0.7.0",
@@ -33,6 +36,7 @@
     "react-icons": "^5.2.1",
     "react-telegram-login": "^1.1.2",
     "reflect-metadata": "^0.1.13",
+    "rimraf": "^6.0.1",
     "rxjs": "^7.8.0",
     "tslib": "^2.3.0"
   },
